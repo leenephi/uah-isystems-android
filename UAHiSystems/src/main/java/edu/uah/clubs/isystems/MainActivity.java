@@ -122,7 +122,30 @@ public class MainActivity extends FragmentActivity {
                 Bundle savedInstanceState) {
             View rootView = inflater.inflate(R.layout.fragment_main_dummy, container, false);
             TextView dummyTextView = (TextView) rootView.findViewById(R.id.section_label);
-            dummyTextView.setText(Integer.toString(getArguments().getInt(ARG_SECTION_NUMBER)));
+
+            //dummyTextView.setText(Integer.toString(getArguments().getInt(ARG_SECTION_NUMBER)));
+
+            /**
+             * Intead of showing the argument number, I will have it show the title
+             * name as a test
+             */
+            switch (getArguments().getInt(ARG_SECTION_NUMBER)) {
+                case 1:
+                    dummyTextView.setText(getString(R.string.title_section1));
+                    break;
+                case 2:
+                    dummyTextView.setText(getString(R.string.title_section2));
+                    break;
+                case 3:
+                    dummyTextView.setText(getString(R.string.title_section3));
+                    break;
+                case 4:
+                    dummyTextView.setText(getString(R.string.title_section4));
+                    break;
+                case 5:
+                    dummyTextView.setText(getString(R.string.title_section5));
+                    break;
+            }
             return rootView;
         }
     }
