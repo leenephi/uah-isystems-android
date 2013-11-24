@@ -8,5 +8,9 @@
     <string name="title_section3">Officers</string>
     <string name="title_section4">Members</string>
     <string name="title_section5">Events</string>
+	
+	<!--Member Fragment Strings-->
+	<string name="members_title">Why become a member of iSystems Club?</string>
+	<string name="members_message">By joining the iSystems Club, you can take advantage of the numerous programs we offer. \n \n \t <b>iWorkshops</b> \n \t Enhance your knowledge with hands-on real-world applications using the knowledge learned in class. \n \n \t \t <b>-</b>ADO.Net(Using Databases with ASP.Net) \n \t \t <b>-</b>Multi-tier Program Architecture \n \t \t <b>-</b>Security+ Preparation \n \t \t <b>-</b>CSS Layouts \n \n \t <b>Professional Workshops</b> \n \t Learn skills from real professionals on how to become more valuable and productive in the workplace \n \n \t \t <b>-</b>Resume Building \n \t \t <b>-</b>Inerview Tips \n \n \t <b>Tutoring Sessions</b> \n \t Get additional help from your IS classes with our tutoring sessions hosted by our IS greybeards. \n \n \t \t <b>-</b>IS 210 \n \t \t <b>-</b>IS 310 \n \t \t <b>-</b>IS 340 \n \n \t <b>Guest Speakers</b> \n \t Acquire insider information and advice from guest speakers working directly in the Information Systems industry. \n \n \t <b>12@12</b> \n \t Twelve Club members will have the opportunity to go to lunch with an IS professional to discuss his or her career in an informal setting. \n \n \t <b>iGiveback</b> \n \t Students will have the opportunity to gin real-world and leadership experience by serving non-profit organizations. Projects range from website designing to database implementation to network administration. \n \n \t <b>iSocial</b> \n \t We want our members to be a close-knit group that help each oher in school and beyond in the workplace, so come hangout at one of our social events to make friends and valuable business connections.</string>
 
 </resources>
