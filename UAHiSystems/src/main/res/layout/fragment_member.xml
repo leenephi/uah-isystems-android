@@ -6,7 +6,7 @@
     android:orientation="vertical">
     
 	<TextView android:gravity="top" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/content_margin" android:textSize="@dimen/text_title" android:text="@string/members_title"/>
-	<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/content_margin" android:textSize="@dimen/text_content" android:text="@string/members_message"/>
+	<TextView android:lines="50" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/content_margin" android:textSize="@dimen/text_content" android:text="@string/members_message"/>
 	
 	</LinearLayout>
 </ScrollView>
