@@ -68,6 +68,12 @@ public class MainActivity extends FragmentActivity {
 
         @Override
         public Fragment getItem(int position) {
+
+            switch (position) {
+                case 0:
+                    return new HomeFragment();
+            }
+
             // getItem is called to instantiate the fragment for the given page.
             // Return a DummySectionFragment (defined as a static inner class
             // below) with the page number as its lone argument.

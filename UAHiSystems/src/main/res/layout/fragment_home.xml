@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/content_margin"
+            android:src="@drawable/isystems_logo"
+            android:adjustViewBounds="true"/>
+
+        <!-- Welcome title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/content_margin"
+            android:textSize="@dimen/text_title"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:text="@string/home_welcome_title"
+            />
+
+        <!-- Welcome message -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/content_margin"
+            android:textSize="@dimen/text_content"
+            android:text="@string/home_welcome_message"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/content_margin"
+            android:src="@drawable/data_center"
+            android:adjustViewBounds="true"/>
+
+    </LinearLayout>
+
+</ScrollView>

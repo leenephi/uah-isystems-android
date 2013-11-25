@@ -2,11 +2,21 @@
 <resources>
 
     <string name="app_name">UAH iSystems</string>
+
     <string name="action_settings">Settings</string>
+
     <string name="title_section1">Home</string>
     <string name="title_section2">About</string>
     <string name="title_section3">Officers</string>
     <string name="title_section4">Members</string>
     <string name="title_section5">Events</string>
+
+    <string name="home_welcome_title">Welcome</string>
+    <string name="home_welcome_message">UAHuntsville’s iSystems Club is a student organization that
+        combines strong business skills with the experience and technical abilities needed to
+        compete in today\'s information-based society.\n\nThrough a combination of workshops,
+        projects, and team-building exercises, we prepare our members to become some of the most
+        competitive forces in the field of Information Systems.\n\nWant to learn more? Be sure to
+        check out our \"About Us\" section!</string>
 
 </resources>
