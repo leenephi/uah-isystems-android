@@ -14,7 +14,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/content_margin"
-            android:src="@drawable/isystems_logo"
+            android:src="@drawable/isystems_logo_transparent"
             android:adjustViewBounds="true"/>
 
         <!-- Welcome title -->
@@ -23,7 +23,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/content_margin"
             android:textSize="@dimen/text_title"
-            android:textAppearance="?android:textAppearanceMedium"
+            android:textAppearance="?android:textAppearanceLarge"
             android:text="@string/home_welcome_title"
             />
 
