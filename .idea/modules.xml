@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/UAHiSystems/UAHiSystems.iml" filepath="$PROJECT_DIR$/UAHiSystems/UAHiSystems.iml" />
-      <module fileurl="file://$PROJECT_DIR$/UAHiSystemsProject.iml" filepath="$PROJECT_DIR$/UAHiSystemsProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/uah-isystems-android.iml" filepath="$PROJECT_DIR$/uah-isystems-android.iml" />
     </modules>
   </component>
