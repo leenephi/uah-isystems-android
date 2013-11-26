@@ -72,6 +72,8 @@ public class MainActivity extends FragmentActivity {
             switch (position) {
                 case 0:
                     return new HomeFragment();
+                case 2:
+                    return new OfficersFragment();
                 case 3:
                     return new MemberFragment();
             }
