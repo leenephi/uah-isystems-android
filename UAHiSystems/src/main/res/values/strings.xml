@@ -42,10 +42,10 @@
         check out our \"About Us\" section!</string>
 
     <string name="officers_title">Officers</string>
-    <string name="Officers_kiersten">Kiersten Mace \n\nPresident \n\nEmail: krm0012@uah.edu</string>
-    <string name="Officers_Rachel">Rachel Gregory \n\nVP of Projects \n\nEmail: rjg0003@uah.edu</string>
-    <string name="Officers_Kevin">Kevin Leach \n\nTreasurer \n\nEmail: kbl0003@uah.edu</string>
-    <string name="Officers_Alex">Alex Sims \n\nVP of Marketing \n\nEmail: jas0059@uah.edu</string>
-    <string name="Officers_Mitchell">Mitchell Bramlett \n\nVP of Events \n\nEmail: mlb0026@uah.edu</string>
+    <string name="Officers_kiersten">Kiersten Mace \n\nPresident \n\nkrm0012@uah.edu</string>
+    <string name="Officers_Rachel">Rachel Gregory \n\nVP of Projects \n\nrjg0003@uah.edu</string>
+    <string name="Officers_Kevin">Kevin Leach \n\nTreasurer \n\nkbl0003@uah.edu</string>
+    <string name="Officers_Alex">Alex Sims \n\nVP of Marketing \n\njas0059@uah.edu</string>
+    <string name="Officers_Mitchell">Mitchell Bramlett \n\nVP of Events \n\nmlb0026@uah.edu</string>
 
 </resources>

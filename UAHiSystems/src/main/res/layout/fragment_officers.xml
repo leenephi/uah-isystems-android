@@ -12,25 +12,6 @@
 
         <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_marginBottom="@dimen/content_margin"
-            android:src="@drawable/isystems_logo_transparent"
-            android:adjustViewBounds="true"/>
-
-        <!-- Officers title -->
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_marginBottom="@dimen/content_margin"
-            android:textSize="@dimen/text_title"
-            android:text="@string/officers_title"
-            android:textAppearance="?android:textAppearanceMedium"
-            android:layout_weight="1" />
-
-
-        <ImageView
-            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/content_margin"
             android:src="@drawable/kiersten"
