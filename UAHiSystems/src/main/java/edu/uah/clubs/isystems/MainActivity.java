@@ -66,7 +66,11 @@ public class MainActivity extends Activity {
         };
         mDrawerLayout.setDrawerListener(mDrawerToggle);
 
-        if (savedInstanceState == null) {
+        // If we're launching from a notification intent, default to the events section
+        Bundle extras = getIntent().getExtras();
+        if (extras != null) {
+            selectItem(extras.getInt("section"));
+        } else {
             selectItem(0);
         }
     }
@@ -139,11 +143,8 @@ public class MainActivity extends Activity {
                 transaction.replace(R.id.content_frame, new MemberFragment()).commit();
                 break;
             case 4:
-                // event section
+                transaction.replace(R.id.content_frame, new EventsFragment()).commit();
                 break;
-            default:
-                // Uhhh...
-
         }
 
         // update selected item and title, then close the drawer

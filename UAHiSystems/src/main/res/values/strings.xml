@@ -46,11 +46,19 @@
         competitive forces in the field of Information Systems.\n\nWant to learn more? Be sure to
         check out our \"About Us\" section!</string>
 
-    <string name="officers_title">Officers</string>
-    <string name="Officers_kiersten">Kiersten Mace \n\nPresident \n\nkrm0012@uah.edu</string>
-    <string name="Officers_Rachel">Rachel Gregory \n\nVP of Projects \n\nrjg0003@uah.edu</string>
-    <string name="Officers_Kevin">Kevin Leach \n\nTreasurer \n\nkbl0003@uah.edu</string>
-    <string name="Officers_Alex">Alex Sims \n\nVP of Marketing \n\njas0059@uah.edu</string>
-    <string name="Officers_Mitchell">Mitchell Bramlett \n\nVP of Events \n\nmlb0026@uah.edu</string>
+    <string name="officers_president">Kiersten Mace</string>
+    <string name="officers_president_info">President \nkrm0012@uah.edu</string>
+
+    <string name="officers_vp_projects">Rachel Gregory</string>
+    <string name="officers_vp_projects_info">VP of Projects \nrjg0003@uah.edu</string>
+
+    <string name="officers_treasurer">Kevin Leach</string>
+    <string name="officers_treasurer_info">Treasurer \nkbl0003@uah.edu</string>
+
+    <string name="officers_vp_marketing">Alex Sims</string>
+    <string name="officers_vp_marketing_info">VP of Marketing \njas0059@uah.edu</string>
+
+    <string name="officers_vp_events">Mitchell Bramlett</string>
+    <string name="officers_vp_events_info">VP of Events \nmlb0026@uah.edu</string>
 
 </resources>

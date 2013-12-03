@@ -1,107 +1,204 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_margin="@dimen/activity_horizontal_margin"
-        android:orientation="vertical">
+        android:layout_height="wrap_content"
+        android:padding="@dimen/content_margin">
+
+        <!-- Kiersten Mace -->
 
         <ImageView
+            android:id="@+id/president_portrait"
+            android:layout_width="@dimen/portrait_size"
+            android:layout_height="@dimen/portrait_size"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/kiersten"
+            android:adjustViewBounds="true" />
+
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/content_margin"
-            android:src="@drawable/kiersten"
-            android:adjustViewBounds="true"
-            android:layout_weight="1"
-            android:layout_gravity="center_horizontal" />
+            android:layout_marginLeft="@dimen/content_margin"
+            android:layout_toRightOf="@id/president_portrait"
+            android:layout_alignTop="@id/president_portrait"
+            android:layout_alignBottom="@id/president_portrait"
+            android:layout_alignParentRight="true"
+            android:gravity="left|center_vertical"
+            android:orientation="vertical">
 
-        <!-- Officer info -->
+            <TextView
+                android:id="@+id/president_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_title"
+                android:text="@string/officers_president" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="0dp"
-            android:layout_marginBottom="12dp"
-            android:textSize="@dimen/text_content"
-            android:text="@string/Officers_kiersten"
-            android:layout_weight="1"
-            android:layout_gravity="center_horizontal" />
+            <TextView
+                android:id="@+id/president_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_content"
+                android:text="@string/officers_president_info" />
+
+        </LinearLayout>
+
+        <!-- Rachel -->
 
         <ImageView
-            android:layout_width="128dp"
-            android:layout_height="163dp"
-            android:layout_marginBottom="@dimen/content_margin"
+            android:id="@+id/vp_projects_portrait"
+            android:layout_width="@dimen/portrait_size"
+            android:layout_height="@dimen/portrait_size"
+            android:layout_marginTop="@dimen/content_margin_large"
+            android:layout_below="@id/president_portrait"
             android:src="@drawable/rachel"
-            android:adjustViewBounds="true"
-            android:layout_weight="1"
-            android:layout_gravity="center_horizontal" />
+            android:adjustViewBounds="true" />
 
-        <TextView
+        <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="0dp"
-            android:layout_marginBottom="12dp"
-            android:textSize="@dimen/text_content"
-            android:text="@string/Officers_Rachel"
-            android:layout_weight="1"
-            android:layout_gravity="center_horizontal" />
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/content_margin"
+            android:layout_toRightOf="@id/vp_projects_portrait"
+            android:layout_alignTop="@id/vp_projects_portrait"
+            android:layout_alignBottom="@id/vp_projects_portrait"
+            android:layout_alignParentRight="true"
+            android:gravity="left|center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/vp_projects_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_title"
+                android:text="@string/officers_vp_projects" />
+
+            <TextView
+                android:id="@+id/vp_projects_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_content"
+                android:text="@string/officers_vp_projects_info" />
+
+        </LinearLayout>
+
+        <!-- Kevin Leach -->
 
         <ImageView
-            android:layout_width="133dp"
-            android:layout_height="155dp"
-            android:layout_marginBottom="@dimen/content_margin"
+            android:id="@+id/treasurer_portrait"
+            android:layout_width="@dimen/portrait_size"
+            android:layout_height="@dimen/portrait_size"
+            android:layout_marginTop="@dimen/content_margin_large"
+            android:layout_below="@id/vp_projects_portrait"
             android:src="@drawable/kevin"
-            android:adjustViewBounds="true"
-            android:layout_weight="1"
-            android:layout_gravity="center_horizontal" />
+            android:adjustViewBounds="true" />
 
-        <TextView
+        <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="0dp"
-            android:layout_marginBottom="12dp"
-            android:textSize="@dimen/text_content"
-            android:text="@string/Officers_Kevin"
-            android:layout_weight="1"
-            android:layout_gravity="center_horizontal" />
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/content_margin"
+            android:layout_toRightOf="@id/treasurer_portrait"
+            android:layout_alignTop="@id/treasurer_portrait"
+            android:layout_alignBottom="@id/treasurer_portrait"
+            android:layout_alignParentRight="true"
+            android:gravity="left|center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/treasurer_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_title"
+                android:text="@string/officers_treasurer" />
+
+            <TextView
+                android:id="@+id/treasurer_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_content"
+                android:text="@string/officers_treasurer_info" />
+
+        </LinearLayout>
+
+        <!-- Alex -->
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="0dp"
-            android:layout_marginBottom="@dimen/content_margin"
+            android:id="@+id/vp_marketing_portrait"
+            android:layout_width="@dimen/portrait_size"
+            android:layout_height="@dimen/portrait_size"
+            android:layout_marginTop="@dimen/content_margin_large"
+            android:layout_below="@id/treasurer_portrait"
             android:src="@drawable/alex"
-            android:adjustViewBounds="true"
-            android:layout_weight="1"
-            android:layout_gravity="center_horizontal" />
+            android:adjustViewBounds="true" />
 
-        <TextView
+        <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="0dp"
-            android:layout_marginBottom="12dp"
-            android:textSize="@dimen/text_content"
-            android:text="@string/Officers_Alex"
-            android:layout_gravity="center_horizontal"
-            android:layout_weight="1" />
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/content_margin"
+            android:layout_toRightOf="@id/vp_marketing_portrait"
+            android:layout_alignTop="@id/vp_marketing_portrait"
+            android:layout_alignBottom="@id/vp_marketing_portrait"
+            android:layout_alignParentRight="true"
+            android:gravity="left|center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/vp_marketing_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_title"
+                android:text="@string/officers_vp_marketing"/>
+
+            <TextView
+                android:id="@+id/vp_marketing_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_content"
+                android:text="@string/officers_vp_marketing_info"/>
+
+        </LinearLayout>
+
+        <!-- Mitchell -->
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="0dp"
-            android:layout_marginBottom="@dimen/content_margin"
+            android:id="@+id/vp_events_portrait"
+            android:layout_width="@dimen/portrait_size"
+            android:layout_height="@dimen/portrait_size"
+            android:layout_marginTop="@dimen/content_margin_large"
+            android:layout_below="@id/vp_marketing_portrait"
             android:src="@drawable/mitchell"
-            android:adjustViewBounds="true"
-            android:layout_weight="1"
-            android:layout_gravity="center_horizontal" />
+            android:adjustViewBounds="true"/>
 
-        <TextView
+        <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="0dp"
-            android:layout_marginBottom="12dp"
-            android:textSize="@dimen/text_content"
-            android:text="@string/Officers_Mitchell"
-            android:layout_gravity="center_horizontal"
-            android:layout_weight="1" />
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/content_margin"
+            android:layout_toRightOf="@id/vp_events_portrait"
+            android:layout_alignTop="@id/vp_events_portrait"
+            android:layout_alignBottom="@id/vp_events_portrait"
+            android:layout_alignParentRight="true"
+            android:gravity="left|center_vertical"
+            android:orientation="vertical">
 
-    </LinearLayout>
+            <TextView
+                android:id="@+id/vp_events_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_title"
+                android:text="@string/officers_vp_events"/>
+
+            <TextView
+                android:id="@+id/vp_events_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_content"
+                android:text="@string/officers_vp_events_info"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
 
 </ScrollView>

@@ -27,6 +27,13 @@
             android:text="@string/home_welcome_title"
             />
 
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/content_margin"
+            android:src="@drawable/data_center"
+            android:adjustViewBounds="true"/>
+
         <!-- Welcome message -->
         <TextView
             android:layout_width="match_parent"
@@ -34,13 +41,6 @@
             android:layout_marginBottom="@dimen/content_margin"
             android:textSize="@dimen/text_content"
             android:text="@string/home_welcome_message"/>
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/content_margin"
-            android:src="@drawable/data_center"
-            android:adjustViewBounds="true"/>
 
     </LinearLayout>
 
