@@ -39,12 +39,24 @@
         friends and valuable business connections.</string>
 
     <string name="home_welcome_title">Welcome</string>
-    <string name="home_welcome_message">UAHuntsville’s iSystems Club is a student organization that
+    <string name="home_welcome_message">UAHuntsville\'s iSystems Club is a student organization that
         combines strong business skills with the experience and technical abilities needed to
         compete in today\'s information-based society.\n\nThrough a combination of workshops,
         projects, and team-building exercises, we prepare our members to become some of the most
         competitive forces in the field of Information Systems.\n\nWant to learn more? Be sure to
         check out our \"About Us\" section!</string>
+
+    <string name="about_us_title">About Us</string>
+    <string name="about_us_message">UAHuntsville\'s iSystems Club is a student organization that
+        combines strong business skills with the experience and technical abilities needed to
+        compete in today\'s information-based society. Three of the five fastest-growing occupations
+        in the U.S. require a deep understanding of business needs coupled with technical knowledge
+        to help organizations succeed and grow.
+
+        \n\nThe iSystems Club prepares you to combine your functional business skills with technology
+        skills to diagnose problems and formulate solutions. Members in iSystems Club are
+        well-prepared to meet head-on the challenges that companies, non-profits, and governments
+        face in the Information Age.</string>
 
     <string name="officers_president">Kiersten Mace</string>
     <string name="officers_president_info">President \nkrm0012@uah.edu</string>

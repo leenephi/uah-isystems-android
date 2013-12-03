@@ -134,7 +134,7 @@ public class MainActivity extends Activity {
                 transaction.replace(R.id.content_frame, new HomeFragment()).commit();
                 break;
             case 1:
-                // about section
+                transaction.replace(R.id.content_frame, new AboutFragment()).commit();
                 break;
             case 2:
                 transaction.replace(R.id.content_frame, new OfficersFragment()).commit();
