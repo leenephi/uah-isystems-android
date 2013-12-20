@@ -20,24 +20,22 @@ import java.util.Date;
  */
 public class EventsFragment extends Fragment {
 
-    private TextView mDateView;
-
     // The columns we want to pull from the Calendar db
     private static final String[] COLUMNS = new String[] {
             CalendarContract.Events._ID,
             CalendarContract.Events.TITLE,
             CalendarContract.Events.DTSTART,
-            CalendarContract.Events.DESCRIPTION,
-            CalendarContract.Events.ACCOUNT_NAME};
+            CalendarContract.Events.EVENT_LOCATION,
+            CalendarContract.Events.DESCRIPTION};
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View root = inflater.inflate(R.layout.fragment_events, container, false);
 
         Cursor cursor = getActivity().getContentResolver().query(
-                CalendarContract.Events.CONTENT_URI, COLUMNS, null, null, null);
-//                CalendarContract.Events.ACCOUNT_NAME + "=?",
-//                new String[] {"lns0012@uah.edu"}, null);
+                CalendarContract.Events.CONTENT_URI, COLUMNS,
+                CalendarContract.Events.ACCOUNT_NAME + "=?",
+                new String[] {"isystemsclub@uah.edu"}, CalendarContract.Events.DTSTART + " DESC");
 
         ListView listView = (ListView) root.findViewById(R.id.events_listview);
 
@@ -47,16 +45,17 @@ public class EventsFragment extends Fragment {
         if (cursor.getCount() > 0) {
             listView.setAdapter(new MyCursorAdapter(getActivity(), R.layout.event_list_item, cursor,
                     new String[] {
-                            CalendarContract.Events.TITLE, CalendarContract.Events.DTSTART,
-                            CalendarContract.Events.DESCRIPTION, CalendarContract.Events.ACCOUNT_NAME},
+                            CalendarContract.Events.TITLE,
+                            CalendarContract.Events.DTSTART,
+                            CalendarContract.Events.EVENT_LOCATION,
+                            CalendarContract.Events.DESCRIPTION},
                     new int[] {
-                            R.id.event_title, R.id.event_dtstart,
-                            R.id.event_description, R.id.event_account_name}));
+                            R.id.event_title,
+                            R.id.event_dtstart,
+                            R.id.event_location,
+                            R.id.event_description}));
 
         }
-
-        mDateView = (TextView) root.findViewById(R.id.event_dtstart);
-
 
         return root;
     }
@@ -74,9 +73,11 @@ public class EventsFragment extends Fragment {
 
         @Override
         public void setViewText(TextView v, String text) {
-            if (v.getId() == R.id.event_dtstart) {
+            if (text.length() == 0) {
+                v.setVisibility(View.GONE);
+            } else if (v.getId() == R.id.event_dtstart) {
                 long dateMillis = Long.parseLong(text);
-                SimpleDateFormat format = new SimpleDateFormat("MMM dd, yyyy");
+                SimpleDateFormat format = new SimpleDateFormat("EEEE h:mm    MMM dd, yyyy");
                 text = format.format(new Date(dateMillis));
                 v.setText(text);
             } else {

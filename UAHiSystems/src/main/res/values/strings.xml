@@ -13,6 +13,7 @@
         <item>About</item>
         <item>Officers</item>
         <item>Members</item>
+        <item>Information Systems</item>
         <item>Events</item>
     </string-array>
 	
@@ -72,5 +73,97 @@
 
     <string name="officers_vp_events">Mitchell Bramlett</string>
     <string name="officers_vp_events_info">VP of Events \nmlb0026@uah.edu</string>
+
+    <string name="information_systems">Information Systems</string>
+    <string name="information_systems_description">Students who major in information systems become
+        experts in how to use computers to advance an organization\'s goals. Information systems
+        professionals help organizations design and use systems for conducting financial
+        transactions, managing information about customers and suppliers, and ensuring the security
+        of communications. They study how people adapt to new information technologies, and advise
+        organizations how to make the most of the information available to them.
+
+        \n\nInformation systems is one of the fastest growing fields in the country. Small
+        companies, large companies, not-for-profits, and government agencies - all need information
+        systems professionals.</string>
+    <string name="information_systems_concentrations">Information Systems Concentrations</string>
+    <string name="information_systems_faculty">Faculty</string>
+    <string name="information_systems_courses">Information Systems Courses</string>
+
+    <string name="information_systems_course_list">
+        • IS 101 - Introduction to Microcomputing
+        \n\n• IS 102 - Spreadsheet Applications
+        \n\n• IS 103 - Spreadsheet Applications II
+        \n\n• IS 104 - Word-processing I
+        \n\n• IS 105 - Word-processing II
+        \n\n• IS 106 - Presentation Graphics
+        \n\n• IS 108 - Database Applications
+        \n\n• IS 110 - Introduction to the Internet
+        \n\n• IS 112 - Introduction to PC UNIX
+        \n\n• IS 114 - Web Publishing Using HTML
+        \n\n• IS 146 - Computer Applications in
+          \n\t  Business
+        \n\n• IS 210 - Introduction to Computer
+          \n\t  Programming in Business
+        \n\n• IS 301 - Information Systems in
+          \n\t  Organizations
+        \n\n• IS 310 - Advanced Computer
+          \n\t  Programming in Business
+        \n\n• IS 340 - Databases for Management
+        \n\n• IS 350 - Advanced Data Bases
+          \n\t  for Management
+        \n\n• IS 400 - Business Intelligent Systems
+        \n\n• IS 401 - Introduction to Information
+          \n\t  Assurance
+        \n\n• IS 416 - Supply Chain Management
+          \n\t  and E-Business
+        \n\n• IS 420 - Web Portals and Applications
+        \n\n• IS 422 - Supply Chain Management
+          \n\t  Systems
+        \n\n• IS 440 - Web Programming and
+          \n\t  Database Integration
+        \n\n• IS 460 - Telecommunications and
+          \n\t  Networking
+        \n\n• IS 463 - Computer Forensics
+        \n\n• IS 465 - Web Server and Internet
+          \n\t  Telecommunications Technology
+        \n\n• IS 470 - Management of the
+          \n\t  Microcomputer Environment
+        \n\n• IS 477 - Network Defense and
+          \n\t  Operating Systems
+        \n\n• IS 480 - Current Topics in Management
+          \n\t  Information Systems
+        \n\n• IS 490 - Special Projects
+        \n\n• IS 495 - Internship in
+          \n\t  Information Systems
+        \n\n• IS 497 - Information Systems Design
+          \n\t  and Implementation
+        \n\n• IS 499 - Systems Development Project</string>
+
+    <string name="information_systems_faculty_list">
+        <b>Chakri Deverapalli</b>
+        \nDirector of IT,  Lecturer
+        \n329E | 256.824.2124
+        \nChakri.Deverapalli@uah.edu
+
+        \n\n<b>Jatinder (Jeet) Gupta</b>
+        \nAssociate Dean, Professor
+        \n126F | 256.824.6593
+        \nJeet.Gupta@uah.edu
+
+        \n\n<b>Wai Yin Mok</b>
+        \nAssociate Professor
+        \n308 | 256.824.6980
+        \nmokw@uah.edu
+
+        \n\n<b>Xiaotong Li</b>
+        \nAssociate Professor
+        \n307 | 256.824.6762
+        \nXiaotong.Li@uah.edu
+
+        \n\n<b>Ravi Patnayakuni</b>
+        \nAssociate Professor
+        \n319 | 256.824.6155
+        \nRavi.Patnayakuni@uah.edu
+    </string>
 
 </resources>

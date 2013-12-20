@@ -1,10 +1,10 @@
 package edu.uah.clubs.isystems;
 
-import android.app.Activity;
 import android.app.FragmentTransaction;
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.support.v4.app.ActionBarDrawerToggle;
+import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.view.Menu;
@@ -13,9 +13,10 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.FrameLayout;
 import android.widget.ListView;
 
-public class MainActivity extends Activity {
+public class MainActivity extends FragmentActivity {
     private DrawerLayout mDrawerLayout;
     private ListView mDrawerList;
     private ActionBarDrawerToggle mDrawerToggle;
@@ -128,6 +129,10 @@ public class MainActivity extends Activity {
 
         FragmentTransaction transaction = getFragmentManager().beginTransaction();
 
+        // Clear the current content frame
+        FrameLayout contentFrame = (FrameLayout) findViewById(R.id.content_frame);
+        contentFrame.removeAllViews();
+
         // update the main content by replacing fragments
         switch (position) {
             case 0:
@@ -143,6 +148,9 @@ public class MainActivity extends Activity {
                 transaction.replace(R.id.content_frame, new MemberFragment()).commit();
                 break;
             case 4:
+                transaction.replace(R.id.content_frame, new ISDegreeFragment()).commit();
+                break;
+            case 5:
                 transaction.replace(R.id.content_frame, new EventsFragment()).commit();
                 break;
         }
